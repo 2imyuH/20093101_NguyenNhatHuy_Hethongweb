@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT MENU</title>
+    <style>
+        *{padding:auto ; margin: auto;}
+        .wrapper{height: 700px; width: 1089px; background-color: aquamarine;}
+        header{height: 150px; width: 100%; background-color: chartreuse;}
+        nav{height: 100px; width: 100%; background-color: chocolate;}
+        .content{height: 400px; width: 100%; background-color: azure;}
+        aside{ height: 100%; width: 40%; background-color: cornflowerblue; float: left;}
+        section{height: 100%; width: 60%; background-color: yellow;float: right;}
+        footer{height: 50px;width: 100%;background-color: darkorange;}
+        .menu li{line-height: 100px;float: left;width: 200px;list-style: none;text-indent: 20px;}
+        a{font-weight: 400;text-decoration: none;}
+        .menu li:hover{background-color:cyan;}
+        li:hover>a{color:yellow ;font-weight: 900;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: initial;}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header></header>
+        <nav>
+            <ul class="menu">
+                <li><a href="https://www.facebook.com">Giải trí</a></li>
+                <li><a href="htpps://www.24h.com.vn">Báo chí</a></li>
+                <li><a href="https://www.w3schools.com">Học tập</a></li>
+                <li><a href="htpps://www.tiktok.com">Bắt trend</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <aside></aside>
+            <section></section>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+</html>
